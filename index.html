@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Aneka" alt="Bella Bao" width="80">
+            </figure>
+          <div class="info-content">
+            <h1 class="name" title="Bella Bao">Bella Bao</h1>
+            <p class="title">Software Engineer & Product Manager</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+  
+        </div>
+  
+        <div class="sidebar-info_more">
+  
+          <div class="separator"></div>
+  
+          <ul class="contacts-list">
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+  
+                <a href="mailto:bella.bao@yale.edu" class="contact-link">bella.bao@yale.edu</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+  
+                <a href="tel:+15105132529" class="contact-link">(+1)510-513-2529</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+  
+                <address></address>
+              </div>
+  
+            </li>
+  
+          </ul>
+  
+          <div class="separator"></div>
+  
+          <ul class="social-list">
+  
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-google-scholar"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-researchgate"></ion-icon>
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+      </aside>
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Education</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Research</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Publications</button>
+            </li>
+          </ul>
+        </nav>
+        <article class="about active" data-page="about">
+  
+          <header>
+            <h2 class="h2 article-title">About Me</h2>
+          </header>
+  
+          <section class="about-text">
+            <body>
+
+              <h2>👋 Hi, I'm Bella Bao</h2>
+          
+              <p>Bella Bao is a skilled software engineer and product manager with a strong background in health informatics and bioinformatics. She has experience leading product development and implementing innovative solutions in both academic and corporate settings. Her technical expertise includes programming in Python, Golang, and Java, and she has a proven track record of enhancing user experiences and optimizing workflows.</p>
+          
+            </body>
+
+            </p>
+          </section>
+          <section class="service">
+  
+            <h3 class="h3 service-title">Research Interests</h3>
+  
+            <ul class="service-list">
+  
+            </ul>
+  
+          </section>
+  
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Honors & Awards</h3>
+            </div>
+  
+            <ol class="timeline-list">
+            </ol>
+          </section>
+  
+        </article>
+        <article class="resume" data-page="education">
+  
+          <header>
+            <h2 class="h2 article-title">Education</h2>
+          </header>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Academic Background</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Yale University</h4>
+  
+                <span>May. 2025 (expected)</span>
+  
+                <p class="timeline-text">
+                  M.S. in Health Informatics
+                </p>
+  
+              </li>
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">University of California, San Diego</h4>
+  
+                <span>June. 2023</span>
+  
+                <p class="timeline-text">
+                  B.S. in Bioinformatics
+                </p>
+  
+              </li>
+  
+            </ol>
+  
+          </section>
+  
+          <section class="skill">
+            <h3 class="h3 skills-title">Technical Skills</h3>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Technical Skills</h5>
+                </div>
+                <p class="timeline-text">Figma UX design, prototyping and MVPs, competitive analysis, Jira project management, Python, Golang, Java, SQL, HTML, CSS3, JavaScript, R</p>
+              </li>
+            </ul>
+          </section>
+  
+        </article>
+  
+        <article class="resume" data-page="research">
+  
+          <header>
+            <h2 class="h2 article-title">Research Experience</h2>
+          </header>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="flask-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Research Positions</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Software Engineer Intern - Adobe Inc.</h4>
+  
+                <span>May. 2024 – Aug. 2024</span>
+  
+                <p class="timeline-text">
+                  Led the end-to-end design and implementation of the Security Auto-Ticketing feature in the developer portal, which automated vulnerability scans and integrated Jira for issue tracking, estimated to reduce high-risk vulnerabilities in Adobe's service application repositories by 10%
+                </p>
+                <p class="timeline-text">
+                  Defined 2 data metrics to measure developer productivity based on build success rate and feature deployment time, implemented comprehensive tracking systems to monitor these metrics and enabled data-driven enhancements in product design
+                </p>
+                <p class="timeline-text">
+                  Reduced deployment configuration time by 20% through revamping the service onboarding experience, conducted user research to identify and analyze initial workflow inefficiencies, led the redesign of the user interface and workflow
+                </p>
+  
+              </li>
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Software Engineer Intern - ByteDance Inc.</h4>
+  
+                <span>Jun. 2023 – Aug. 2023</span>
+  
+                <p class="timeline-text">
+                  Designed and developed 3 key functionalities for a large-scale Biomedical Operating System, including workflow management and user data visualization through Golang, used by 30+ commercial clients
+                </p>
+                <p class="timeline-text">
+                  Identified unique user needs for product through 10 target users feedback calls, prioritized a centralized data analysis and visualization platform to increase user experience
+                </p>
+                <p class="timeline-text">
+                  Conducted user research and proposed enhancements for the online editing of WDL documents, which were adopted and implemented by the engineering team
+                </p>
+                <p class="timeline-text">
+                  Identified user friction points in the search experience, unblocking top clients by developing a search criteria retention feature, which enhanced the cohesiveness of the frontend search experience
+                </p>
+                <p class="timeline-text">
+                  Domain knowledge sharing in biomedical operating systems with over 30 cross-functional team members at ByteDance, utilizing real-world user stories to clarify user needs and use cases, the slides were adopted for subsequent client presentations
+                </p>
+  
+              </li>
+  
+            </ol>
+  
+          </section>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Teaching Experience</h3>
+            </div>
+  
+            <ol class="timeline-list">
+            </ol>
+  
+          </section>
+  
+        </article>
+  
+        <article class="resume" data-page="publications">
+  
+          <header>
+            <h2 class="h2 article-title">Academic Output</h2>
+          </header>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="document-text-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Publications</h3>
+            </div>
+  
+            <ol class="timeline-list">
+            </ol>
+  
+          </section>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="mic-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Presentations</h3>
+            </div>
+  
+            <ol class="timeline-list">
+            </ol>
+  
+          </section>
+  
+          <section class="timeline">
+  
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="people-outline"></ion-icon>
+              </div>
+  
+              <h3 class="h3">Professional Affiliations</h3>
+            </div>
+  
+            <ol class="timeline-list">
+            </ol>
+  
+          </section>
+  
+        </article>
+  
+      </div>
+  
+    </main>
+
+
+<script>
+'use strict';
+const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
+
+const sidebar = document.querySelector("[data-sidebar]");
+const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+
+sidebarBtn.addEventListener("click", function () { elementToggleFunc(sidebar); });
+
+const navigationLinks = document.querySelectorAll("[data-nav-link]");
+const pages = document.querySelectorAll("[data-page]");
+
+navigationLinks.forEach((link) => {
+link.addEventListener("click", function () {
+  navigationLinks.forEach(navLink => navLink.classList.remove("active"));
+  this.classList.add("active");
+  const pageName = this.textContent.toLowerCase().trim();
+  pages.forEach(page => page.classList.remove("active"));
+  const targetPage = document.querySelector(`[data-page="${pageName}"]`);
+  if (targetPage) {
+    targetPage.classList.add("active");
+    window.scrollTo(0, 0);
+  }
+});
+});
+</script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+</body>
+</html>
